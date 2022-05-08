@@ -73,7 +73,6 @@ body {
     background-color: #030a1a;
     font-size: 16px;
 }
-
 /* focus styles */
 :focus :focus-visible  {
     outline: solid white 2px;
@@ -86,7 +85,8 @@ header {
     align-items: center;
     transition: all 2s ease;
     background-color: #0f384d;
-    height: 200px;
+    min-height: 200px;
+    max-height: fit-content;
     width: fit-content;
     margin: 50px auto;
     border: 3px solid #3f7f74;
